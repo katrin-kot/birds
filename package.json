@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/katrin-kot/birds/issues"
   },
-  "homepage": "https://github.com/katrin-kot/birds#readme"
+  "homepage": "https://github.com/katrin-kot/birds#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
 }
